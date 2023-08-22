@@ -1,0 +1,19 @@
+---
+ns: CAM
+aliases: ["0xC912AF078AF19212"]
+---
+## IS_SCRIPT_GLOBAL_SHAKING
+
+```c
+// 0xC912AF078AF19212 0x6AEFE6A5
+BOOL IS_SCRIPT_GLOBAL_SHAKING();
+```
+
+```
+In drunk_controller.c4, sub_309
+if (CAM::IS_SCRIPT_GLOBAL_SHAKING()) {
+    CAM::STOP_SCRIPT_GLOBAL_SHAKING(0);
+}
+```
+
+## Return value
